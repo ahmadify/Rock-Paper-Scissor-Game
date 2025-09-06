@@ -1,0 +1,213 @@
+
+.page-title {
+    font-family: Arial, sans-serif; 
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;               
+    animation: fadeInDown 1.5s ease forwards;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+.button1{
+background-image: url("ChatGPT\ Image\ Aug\ 15\,\ 2025\,\ 01_24_18\ PM.png");
+  border-radius:47%;         
+  border: none;                 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  cursor: pointer;      
+  height: 120px;
+  width:100px;
+  background-color: white;
+  border-radius: 15%;
+}
+:hover.button1{
+    opacity: 60%;
+    box-shadow: 5px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button2{
+    background-image: url("5112AC56-1C82-4E2B-A4A3-C27D37DADD8B.PNG");
+width: 100px;                 
+  height: 120px;
+  border-radius:47%;         
+  border: none;                 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  cursor: pointer;   
+  background-color: white;
+  border-radius: 15%;
+  
+  
+}
+:hover.button2{
+    opacity: 60%;
+    box-shadow: 5px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button3{
+ background-image: url("FD693547-FFE7-432A-AC3A-951700F8317E.PNG");
+width: 100px;                 
+  height: 120px;
+  border-radius:47%;         
+  border: none;                 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  cursor: pointer;    
+  background-color: white;
+  border-radius: 15%;
+  
+}
+:hover.button3{
+    opacity: 60%;
+    box-shadow: 5px 7px 1px rgba(0, 0, 0, 0.3);
+}
+body {
+    background: #e8c8d5;
+    background: radial-gradient(circle, rgba(232, 200, 213, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: Verdana, sans-serif;
+  }
+  
+
+.first-proj{
+
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.after-sub{
+
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.visibility{
+    visibility: hidden;
+}
+
+
+.reset{
+    border: none;
+    color: black;
+    background-color: rgb(0, 110, 255);
+    border-radius: 350px;
+    font-size: medium;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+:hover.reset{
+    opacity:60%;
+}
+
+.display1, .display2,.display3, .displayScore, .reset2, .displayScore1,.displayScore2,.displayScore3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.scores-margin{
+    margin-top: 25px;
+    border: 2px solid white;
+    width:290px;
+    max-width:800px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5%;
+}
+
+.forum{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+    height: 150px;
+    width: 430px;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+/*.emojiWrapper {
+    width: 70px;               
+    height: 70px;
+    border-radius: 50%;       
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 189, 189);
+    align-items: center;
+    margin: 10px auto      
+}
+
+.emoji-img {
+    width: 50px;  
+    height: 50px;     
+    object-fit: contain; 
+}*/
+.Scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.display1{
+    font-weight: bold;
+    font-size: large;
+}
+.display2,.display3{
+    line-height: 1;
+}
+.display3{
+    margin-bottom: 35px;
+}
+
+.displayScore2,.displayScore3{
+    line-height: 1;
+    margin-top: -3px;
+}
+
+.button1:active{
+    transform: translateY(2px);
+}
+.button2:active{
+    transform: translateY(2px);
+}
+.button3:active{
+    transform: translateY(2px);
+}
